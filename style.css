@@ -309,6 +309,11 @@ footer p {
   margin: 0;
   letter-spacing: 0.3px;
 }
+/* Mobile viewport fix */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 /* =========================================================
    Personal Portfolio | Gughan Ram Raaman
